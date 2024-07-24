@@ -1,0 +1,249 @@
+
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+
+}
+
+
+header{
+    background-color: white;
+    width: 100%;
+    
+  
+    text-align: start;
+    z-index: 5;
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    height:70px;
+   
+    
+    
+}
+header button{
+    width: 100px;
+    height: 40px;
+    padding:10px ;
+    font-size: 14px;
+    /* margin-right: -200px; */
+border: 0.5px solid rgb(144, 149, 149);
+    color:darkslategrey;
+    background-color: rgb(245, 242, 242);
+}
+header #left{
+    /* margin-left: -200px; */
+
+    font-size: 20px;
+    color: rgb(216, 107, 218);
+    
+
+    
+}
+header #logo{
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    
+    font-style: normal;
+    
+    font-size: 2.5em;
+    top: 50px;
+    color: rgb(216, 107, 218);
+    
+
+}
+ #banner{
+    display: block;
+    position: relative;
+   top:50px;  
+   padding-top: 30px;
+   align-items: center;
+   justify-content: space-between;
+    background-image: url('./banner.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 100%;
+   height: 300px;
+}
+#banner h1{
+    color: lightseagreen;
+}
+ #banner p{
+    position: absolute;
+    color:lightslategray;
+    text-align: center;
+    left: 500px;
+    width: 500px;
+}
+#getstartedbtn{
+    position: absolute;
+    text-align: center;
+    font-family:monospace;
+    font-size: 15px;
+    width: 170px;
+    height:60px ;
+    top: 200px;
+    border: none;
+    left: 670px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(216, 107, 218);
+
+}
+#getstartedbtn:hover{
+cursor: pointer;
+}
+#section01{
+    flex-basis: 100%;
+ position: relative;
+    display: flex;
+    margin-top: 250px;
+    text-align: center;
+    align-items: center;
+    /* justify-content: space-between; */
+ 
+}
+
+#block01{
+   
+    /* flex-basis: 100px;
+   
+position: absolute;
+justify-content: space-between; */
+
+/
+}
+
+#block02{
+    /* flex-basis: 100px;
+
+position: absolute;
+align-items: center;
+justify-content: space-between; */
+
+}
+#sec01-2,#sec01-1,#sec01-3,#sec01-4{
+   
+   
+    margin-bottom: 25px;
+}
+
+#sec01-1 ,#sec01-2{
+    margin-left: 100px;
+}
+#sec01-img{
+    margin-left: 50vh;
+    /* margin-right: 550px; */
+}
+#sec01-3,#sec01-4{
+   
+    margin-left: 500px;
+}
+#section01 h1,#section03 h1{
+    color: rgb(67, 183, 177);
+}
+#section01 span,#section03 p{
+    color: lightslategray;
+
+}
+#sec01-img{
+display: block;
+position: absolute;
+left: 200px;
+right: 240vh;
+
+}
+#pic01{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+
+}
+#section02{
+margin-top: 200px;
+    background-color:rgb(232, 95, 95);
+    height: 300px;
+    flex-basis: 100%;
+    text-align: center;
+    align-content: center;
+   justify-content: space-between;
+}
+
+    #section02 h1 ,#section02 h3,#section02 p{
+        padding-left: 250px;
+        margin: 30px 0 30px 0;
+        width: 60%;
+        font-style: italic;
+        color: white;
+    }
+    #section03{
+        display: flex;
+        gap:25px ;
+justify-content: center;       
+ margin-left: 50px;    
+         flex-basis: 1000px;
+         height: 350px;
+       
+
+    }
+   
+    #card01{
+    
+        height: 300px;
+        width: 400px;
+        position: relative;
+        margin-top: 30px;
+        
+        border: 1px solid gainsboro;
+        justify-content: space-between;
+        
+
+
+    }
+    #card01 img{
+        position: absolute;
+        width: 400px;
+        height: 200px;
+
+    }
+    #card01 p{
+        position: absolute;
+      top: 240px;
+      margin-left: 20px;
+          
+    }
+  
+    #map{
+        display: flex;
+        margin-left: 350px;
+        margin-right: 50px;
+       
+        height: 450px;
+        width: 800px;
+        margin-bottom: 80px;
+    }
+    #section04{ background-color: rgb(67, 183, 177);
+        position: relative; 
+        display: flex; 
+        width: 100%;
+        height: 300px;
+        align-content: center;
+
+        
+    }
+#section04 h1{
+    padding-left: 40%;
+    padding-top: 2%;
+    color:lightcyan ;
+}
+#sec04-2{
+    display: flex; position: absolute; top: 150px;left: 20%; align-content: center; gap: 80px; color: white;
+}
+#sec04-2 i{
+    margin-right: 15px;
+}
